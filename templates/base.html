@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>User Signup</h1>
+    <form action="POST">
+        <label for="username">Username:
+            <input type="text" name="username" id="username" />
+        </label>
+        <p class="error">{{username_error}}</p>
+        <label for="password">Password:
+            <input type="text" name="password" id="password" />
+        </label>
+        <p class="error">{{password_error}}</p>
+        <label for="conf_password">Confirm Password:
+            <input type="text" name="conf_password" id="conf_password" />
+        </label>
+        <p class="error">{{conf_password_error}}</p>
+        <label for="email">Email (optional):
+            <input type="email" name="email" id="email" />
+        </label>
+        <p class="error">{{email_error}}</p>
+    </form>
+</body>
+</html>
